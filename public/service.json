@@ -1,0 +1,142 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.postimg.cc/JhkR8Nx2/coat-2.webp",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.postimg.cc/LsRx4RBw/SALOAN.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Cat Nail Clipping",
+    "providerName": "Claws & Paws Spa",
+    "providerEmail": "contact@clawsnpaws.com",
+    "price": 15,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Quick and gentle nail trimming to keep your cat's paws safe and healthy.",
+    "image": "https://i.postimg.cc/QNWYq6tP/698cdd6e894d24dba253f59082c04f82-t.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Teeth Cleaning for Pets",
+    "providerName": "Healthy Smiles Pet Care",
+    "providerEmail": "info@healthysmiles.com",
+    "price": 40,
+    "rating": 4.6,
+    "slotsAvailable": 2,
+    "description": "Professional teeth cleaning to maintain oral health for your dog or cat.",
+    "image": "https://i.postimg.cc/6Qkn6hXG/istockphoto-1492074942-612x612.jpg",
+    "category": "Health"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Pet Photography",
+    "providerName": "Furry Memories Photography",
+    "providerEmail": "photos@furrymemories.com",
+    "price": 50,
+    "rating": 4.9,
+    "slotsAvailable": 3,
+    "description": "Capture your pet's unique personality with a professional photo session.",
+    "image": "https://i.postimg.cc/3RhNbfhG/pet-photography-logo-file-free-vector.jpg",
+    "category": "Photography"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Pet Massage Therapy",
+    "providerName": "Pawsitive Relaxation",
+    "providerEmail": "info@pawsitiverelaxation.com",
+    "price": 60,
+    "rating": 4.8,
+    "slotsAvailable": 4,
+    "description": "Massage therapy to relieve stress and improve circulation for your pet.",
+    "image": "https://i.postimg.cc/YqFchrYC/dog-being-treated-chiropractic-clinic-600nw-1825869782.webp",
+    "category": "Health"
+  },
+  {
+    "serviceId": 7,
+    "serviceName": "Pet Daycare",
+    "providerName": "Furry Friends Daycare",
+    "providerEmail": "info@furryfriends.com",
+    "price": 20,
+    "rating": 4.5,
+    "slotsAvailable": 10,
+    "description": "Safe and fun daycare services for your pet while you're away.",
+    "image": "https://i.postimg.cc/52PDrXVf/images.png",
+    "category": "Daycare"
+  },
+  {
+    "serviceId": 8,
+    "serviceName": "Pet Boarding",
+    "providerName": "Pet Stay Inn",
+    "providerEmail": "boarding@petstayinn.com",
+    "price": 35,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Comfortable and secure boarding for your pets when you're out of town.",
+    "image": "https://i.postimg.cc/gjC28ggr/17627094-an-image-of-a-cat-and-dog-pet-hotel.jpg",
+    "category": "Boarding"
+  },
+  {
+    "serviceId": 9,
+    "serviceName": "Pet Training Classes",
+    "providerName": "Paws & Learn",
+    "providerEmail": "contact@pawslearn.com",
+    "price": 45,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Obedience and behavior training for dogs of all ages.",
+    "image": "https://i.postimg.cc/7Zfyw3Xr/flat-vector-illustration-woman-professional-600nw-1874227789.webp",
+    "category": "Training"
+  },
+  {
+    "serviceId": 10,
+    "serviceName": "Flea and Tick Treatment",
+    "providerName": "Pawsitive Health",
+    "providerEmail": "health@pawsitive.com",
+    "price": 30,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Effective treatment for fleas and ticks to keep your pet comfortable and healthy.",
+    "image": "https://i.postimg.cc/Fsz6L9Sy/images2.png",
+    "category": "Health"
+  },
+  {
+    "serviceId": 11,
+    "serviceName": "Pet Birthday Party Planning",
+    "providerName": "Barkday Party Planners",
+    "providerEmail": "parties@barkdayplanners.com",
+    "price": 100,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Plan a fun and memorable birthday party for your pet with customized decorations, cakes, and games.",
+    "image": "https://i.postimg.cc/q77HB9ry/istockphoto-1084062064-612x612.jpg",
+    "category": "Events"
+  },
+  {
+    "serviceId": 12,
+    "serviceName": "Pet Spa Day",
+    "providerName": "Paws & Relax Spa",
+    "description": "Full spa experience for your pet, including a bath, massage, and grooming.",
+    "image": "https://i.postimg.cc/zXkQL00L/107869932-vector-cartoon-style-illustration-of-happy-dog-spa-on-typography-slogan-for-apparel-design.jpg",
+    "category": "Grooming"
+  }
+]

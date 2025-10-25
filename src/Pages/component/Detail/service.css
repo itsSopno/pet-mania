@@ -1,0 +1,151 @@
+/* Main container */
+.main-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: auto;
+}
+
+/* Detail page card */
+.detail-page {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  color: #27187e;
+  background-color: #F7F7FF;
+  border-radius: 40px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Header section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.back-link {
+  font-size: 18px;
+  color: #007aff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.service-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  text-transform: uppercase;
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+/* Main content area */
+.main-point {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-section {
+  text-align: center;
+  flex: 1 1 300px;
+}
+
+.service-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* Info section */
+.info-section {
+  flex: 1 1 300px;
+  margin-top: 20px;
+}
+
+.info-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* Call to action */
+.cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.learn-more-btn {
+  background-color: #007aff;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.learn-more-btn:hover {
+  background-color: #005bb5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .service-title {
+    font-size: 28px;
+  }
+
+  .main-point {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info-section, .image-section {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .detail-page {
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .service-title {
+    font-size: 24px;
+  }
+
+  .info-section p {
+    font-size: 16px;
+  }
+
+  .learn-more-btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-title {
+    font-size: 20px;
+  }
+
+  .info-section p {
+    font-size: 14px;
+  }
+
+  .learn-more-btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}

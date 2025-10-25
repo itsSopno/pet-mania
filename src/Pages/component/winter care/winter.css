@@ -1,0 +1,93 @@
+/* Winter Safety Section */
+.winter-safety {
+  padding-top: 100px;
+  padding-left: 20px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: row;
+}
+
+.winter-h1 {
+  color: #27187e; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+.winter-p {
+  color: #27187e;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  text-transform: uppercase; 
+}
+
+.winter-two {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 40px;
+}
+
+.winter-p-two {
+  color: #27187e;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  text-transform: uppercase; 
+}
+
+.winter-p-two-father {
+  padding-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .winter-safety {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .winter-h1 {
+    font-size: 28px; 
+    text-align: center;
+  }
+
+  .winter-p,
+  .winter-p-two {
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+  }
+
+  .winter-two {
+    padding-left: 20px; 
+    padding-right: 20px;
+    gap: 20px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .winter-h1 {
+    font-size: 24px;
+  }
+
+  .winter-p,
+  .winter-p-two {
+    font-size: 10px; 
+  }
+
+  .winter-two {
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px; 
+  }
+}

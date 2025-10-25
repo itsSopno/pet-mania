@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  height: 100vh; 
+  flex-direction: column; 
+}
+
+/* Left section */
+.left {
+  flex: 1;
+  background-color: #F7F7FF; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #27187e;
+  padding: 20px;
+}
+
+/* Right section */
+.right {
+  flex: 1;
+  background-color: #27187e; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #F7F7FF;
+  padding: 20px;
+}
+
+/* Heading styles */
+.pet-h {
+  font-size: 48px; 
+  font-weight: 800; 
+  color: #27187e; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Pet description text */
+.pet-p {
+  color: #F7F7FF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  text-transform: uppercase; 
+}
+
+.pet-div {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pet-safety {
+  padding-top: 100px;
+  padding-left: 20px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: row;
+}
+
+.safety-h1 {
+  color: #27187e; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: 'Arial', sans-serif;
+ 
+}
+.pet-h1{
+  font-size: 48px; 
+  font-weight: 800; 
+  color: #F7F7FF; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: 'Arial', sans-serif;
+  padding-left: 20px;
+}
+.safety-p{
+    color: #27187E;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  text-transform: uppercase; 
+}
+.safety-two{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+img {
+  width: 100px;
+  margin-top: 20px; 
+}
+
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column; 
+  }
+  
+  .pet-h {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .pet-p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .safety-h1 {
+    font-size: 50px; 
+  }
+
+  img {
+    width: 80px; 
+  }
+  .pet-h1{
+    font-size: 36px;
+    
+  }
+}
+@media (max-width: 480px){
+  .safety-p{
+    font-size: 15px;
+  }
+  .pet-h1{
+    font-size: 15px;
+  }
+}
