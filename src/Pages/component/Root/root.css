@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -44,13 +43,12 @@ body {
   text-transform: uppercase; 
   margin-top: 50px;
   margin-bottom: 40px;
-  font-family: 'Arial', sans-serif;
+ 
 }
 
 /* Pet description text */
 .pet-p {
   color: #F7F7FF;
-  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -79,7 +77,6 @@ body {
   text-transform: uppercase; 
   margin-top: 50px;
   margin-bottom: 40px;
-  font-family: 'Arial', sans-serif;
  
 }
 .pet-h1{
@@ -91,12 +88,11 @@ body {
   text-transform: uppercase; 
   margin-top: 50px;
   margin-bottom: 40px;
-  font-family: 'Arial', sans-serif;
+ 
   padding-left: 20px;
 }
 .safety-p{
     color: #27187E;
-  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;

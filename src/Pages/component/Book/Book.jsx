@@ -34,7 +34,7 @@ const Book = () => {
       timer: 2000,
       timerProgressBar: true,
       showConfirmButton: false,
-      didClose: () => navigate("/home"),
+      didClose: () => navigate("/"),
     });
 
     setFormData({ name: "", number: "" });

@@ -2,8 +2,8 @@ import React, { useContext, useState } from 'react';
 import { AuthContext } from '../AuthContext';
 import { useNavigate } from 'react-router';
 import { signInWithPopup, GoogleAuthProvider, sendPasswordResetEmail } from 'firebase/auth';
+import './login.css'
 import auth from '../firebase.init';
-
 const provider = new GoogleAuthProvider();
 
 const Login = () => {
@@ -20,7 +20,7 @@ const Login = () => {
     try {
       const result = await createUser(email, password);
       setUser(result.user);
-      navigate("/home");
+      navigate("/");
     } catch (error) {
       console.error("Login failed:", error.message);
       alert(error.message);
@@ -35,7 +35,7 @@ const Login = () => {
     try {
       const result = await signInWithPopup(auth, provider);
       setUser(result.user);
-      navigate("/home");
+      navigate("/");
     } catch (error) {
       console.error("Google login failed:", error.message);
       alert(error.message);
@@ -59,7 +59,7 @@ const Login = () => {
 
   return (
   <div className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-[#27187e] relative gap-9 px-4 md:px-8">
-  <h2 className="text-3xl md:text-4xl font-extrabold text-[#F7F7FF] mb-10 uppercase tracking-wide font-sans text-center">
+  <h2 className="text-3xl md:text-4xl font text-[#F7F7FF] mb-10 uppercase tracking-wide font-sans text-center">
     WELCOME TO PET
   </h2>
 

@@ -1,4 +1,5 @@
 /* Main section styling */
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
 .meet-experts {
   width: 100%;
   height: auto; /* <-- এখানে auto রাখো */
@@ -8,6 +9,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+    font-family: "Vujahday Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -19,7 +23,9 @@
   margin-bottom: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: 'Arial', sans-serif;
+    font-family: "Vujahday Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Expert cards container */

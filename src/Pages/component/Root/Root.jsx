@@ -2,7 +2,7 @@ import React, { useContext, useRef, useEffect } from 'react';
 import './root.css';
 import { AuthContext } from '../../../AuthContext';
 import MeetOurExperts from '../pages/Expert';
-import Winter from '../Winter';
+import Winter from './Winter';
 import { useLoaderData } from 'react-router';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';

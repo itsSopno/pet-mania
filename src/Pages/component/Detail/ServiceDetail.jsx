@@ -19,7 +19,7 @@ const ServiceDetail = () => {
   if (!service) return <Error></Error>;
 
   const handelClick = () => {
-    navigation(`/home/service/${service.serviceId}/Book`);
+    navigation(`/service/${service.serviceId}/Book`);
   };
 
   useEffect(() => {
