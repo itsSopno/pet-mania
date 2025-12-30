@@ -9,7 +9,7 @@ The website showcases interactive UI, smooth animations, and elegant scrolling f
 
 ## 🖥️ Screenshot
 <p align="center">
-  <img src="assets/pet-mania.png" width="800" alt="Pet Mania Screenshot"/>
+  <img src="pet-pic/pet-pic.png" width="800" alt="Pet Mania Screenshot"/>
 </p>
 
 ---
