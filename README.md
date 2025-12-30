@@ -41,3 +41,13 @@ Follow these steps to run **Pet Mania** locally:
 ```bash
 git clone https://github.com/itsSopno/pet-mania.git
 cd pet-mania
+npm install i
+npm install react-router
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install daisyui
+npm install framer-motion
+npm install gsap
+npm install firebase
+npm i lenis
+ npm start
